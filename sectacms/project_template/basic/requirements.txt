@@ -1,0 +1,2 @@
+sectacms=={{sectacms_release.0}}.{{sectacms_release.1}}.*
+wagtail=={{wagtail_release.0}}.{{wagtail_release.1}}.*

@@ -1,0 +1,6 @@
+{% load sectacms_tags %}
+{% if "Secta_BANNER"|Secta_settings %}
+<div class="Secta-banner" style="background-color:{{ 'Secta_BANNER_BACKGROUND'|Secta_settings }}; color:{{ 'Secta_BANNER_TEXT_COLOR'|Secta_settings }}; text-align:center; padding:4px;">
+  {{ "Secta_BANNER"|Secta_settings|safe }}
+</div>
+{% endif %}

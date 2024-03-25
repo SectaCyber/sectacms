@@ -1,0 +1,108 @@
+/// Custom adjustments to bootstrap navbar to work better out of the box.
+/// TODO: sass-ify this, code below is copied from old Secta-front.css
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+.-fixed-img-offset {
+  margin-top: 76px;
+}
+
+.-fixed-offset {
+  margin-top: 56px;
+}
+
+.Secta-navbar-center-fixed-img-offset {
+  margin-top: 175px;
+}
+
+.Secta-navbar-center-fixed-offset {
+  margin-top: 56px;
+}
+
+.Secta-navbar-center {
+  text-align: center;
+}
+
+.Secta-navbar-center .navbar-collapse {
+  justify-content: center;
+}
+
+.Secta-navbar-center .navbar-brand {
+  margin: 0;
+}
+
+.Secta-navbar-center .navbar-brand img {
+  height: 150px;
+  width: auto;
+}
+
+/* sm */
+@media (min-width: 576px) {
+
+  .Secta-navbar-center.navbar-expand-sm>.container,
+  .Secta-navbar-center.navbar-expand-sm>.container-fluid {
+    display: block;
+  }
+
+  .Secta-navbar-center-fixed-img-offset.navbar-expand-sm {
+    margin-top: 217px;
+  }
+
+  .Secta-navbar-center-fixed-offset.navbar-expand-sm {
+    margin-top: 96px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+
+  .Secta-navbar-center.navbar-expand-md>.container,
+  .Secta-navbar-center.navbar-expand-md>.container-fluid {
+    display: block;
+  }
+
+  .Secta-navbar-center-fixed-img-offset.navbar-expand-md {
+    margin-top: 217px;
+  }
+
+  .Secta-navbar-center-fixed-offset.navbar-expand-md {
+    margin-top: 96px;
+  }
+}
+
+/* lg */
+@media (min-width: 992px) {
+
+  .Secta-navbar-center.navbar-expand-lg>.container,
+  .Secta-navbar-center.navbar-expand-lg>.container-fluid {
+    display: block;
+  }
+
+  .Secta-navbar-center-fixed-img-offset.navbar-expand-sm {
+    margin-top: 217px;
+  }
+
+  .Secta-navbar-center-fixed-offset.navbar-expand-sm {
+    margin-top: 96px;
+  }
+}
+
+/* xl */
+@media (min-width: 1200px) {
+
+  .Secta-navbar-center.navbar-expand-xl>.container,
+  .Secta-navbar-center.navbar-expand-xl>.container-fluid {
+    display: block;
+  }
+
+  .Secta-navbar-center-fixed-img-offset.navbar-expand-xl {
+    margin-top: 217px;
+  }
+
+  .Secta-navbar-center-fixed-offset.navbar-expand-xl {
+    margin-top: 96px;
+  }
+}

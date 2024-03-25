@@ -1,0 +1,10 @@
+.caption-text {
+  font-style: italic;
+}
+
+pre .c,
+pre .c1,
+pre .sd {
+  color: #BBBBDD;
+  font-style: italic;
+}

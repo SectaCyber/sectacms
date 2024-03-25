@@ -1,0 +1,36 @@
+///
+/// Wagtail Secta Sass starter template
+///
+/// Import scss sources from the sectacms pip package,
+/// or from your own local directory as needed.
+///
+
+// Use custom variables.
+@import "variables";
+
+// Import Bootstrap. Alternatively, change this to import individual components
+// of Bootstrap as needed.
+@import "sectacms/vendor/bootstrap/scss/bootstrap";
+
+// Wagtail Secta tweaks. You'll probably want to disable some of these and use
+// your own styles instead.
+@import "sectacms/scss/Secta-article";
+@import "sectacms/scss/Secta-bs-overrides";
+@import "sectacms/scss/Secta-gallery";
+@import "sectacms/scss/Secta-hero";
+@import "sectacms/scss/Secta-location";
+@import "sectacms/scss/Secta-navbar";
+@import "sectacms/scss/Secta-pricelist";
+@import "sectacms/scss/Secta-richtext";
+
+// Add your custom styles here.
+
+// Adds a bit of spacing to "Responsive Grid Row" blocks.
+.Secta-grid {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.Secta-grid .Secta-grid {
+  padding-top: 0;
+  padding-bottom: 0;
+}

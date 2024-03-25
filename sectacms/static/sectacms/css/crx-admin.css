@@ -1,0 +1,98 @@
+/*!
+Wagtail Secta (https://www.Secta.dev/cms/)
+Copyright 2018-2023 secta LLC
+License: https://github.com/SectaCyber/sectacms/blob/main/LICENSE
+*/
+
+
+/* Font sizes and inputs */
+
+code,
+pre,
+textarea.monospace,
+.monospace textarea {
+  font-family: var(--w-font-mono);
+  font-weight: normal;
+  font-weight: 1rem;
+}
+
+.input input[type='color']{
+  height: 40px;
+  padding: 5px;
+}
+
+
+/* Show the site's custom logo in the wagtail admin */
+
+.Secta-logo-custom {
+  width: auto;
+  height: auto;
+  max-height: 80px;
+  max-width: 100%;
+  display: block;
+}
+.Secta-logo-container {
+  box-sizing: border-box;
+  margin: 0 15px;
+}
+.Secta-logo-container.navbar-light {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 0.25em;
+}
+.Secta-logo-container.navbar-dark {
+  background-color: transparent;
+}
+
+
+/* Display the optional banner above main content */
+
+.Secta-banner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.Secta-banner ~ .content-wrapper {
+    padding-top: calc(1.5em + 8px);
+}
+
+
+/* Streamfield editor */
+
+.Secta-collapsible {
+  padding:0;
+  margin: -16px 0 10px 0;
+}
+.Secta-collapsible .Secta-collapsible-target {
+  padding: 10px 0 0;
+}
+.Secta-collapsible > button {
+  max-width: 140px;
+}
+
+.Secta-checkbox-group {
+  margin-bottom: 1em;
+}
+.Secta-checkbox-group ul {
+  margin-top: 0.5em;
+}
+.Secta-checkbox-group label {
+  padding-bottom: 0.25em;
+}
+.Secta-checkbox-group label input {
+  margin-right: 0.25em;
+}
+
+.Secta-callout {
+  background-color: var(--w-color-surface-header);
+  border: 1px solid var(--w-color-border-furniture);
+  border-radius: 6px;
+  display: inline-block;
+  padding: 2em 3em;
+  text-align: center;
+}
+.Secta-callout .Secta-big-icon {
+  font-size: 5rem;
+  color: var(--w-color-text-label);
+}

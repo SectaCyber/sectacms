@@ -1,0 +1,11 @@
+# Install sectacms from local directory.
+-e .
+
+# Requirements, in addition to sectacms, needed for CI runner.
+black==24.2.0
+codespell
+flake8
+pytest-cov
+pytest-django
+sphinx
+sphinx-wagtail-theme
